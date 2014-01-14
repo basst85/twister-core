@@ -6,7 +6,8 @@
 2. sudo apt-get install build-essential libssl-dev libboost-all-dev libdb++-dev libminiupnpc-dev git openssl
 3. git clone https://github.com/miguelfreitas/twister-core.git
 4. cd twister-core/libtorrent
-5. ./bootstrap.sh --with-boost-libdir=/usr/lib/x86_64-linux-gnu
+5. ./bootstrap.sh --with-boost-libdir=/usr/lib/x86_64-linux-gnu 
+
 	or, when you get a "Boost.System library not found" error: ./bootstrap.sh --with-boost-libdir=/usr/lib
 6. ./configure --enable-logging --enable-debug --enable-dht
 7. cd ../src
